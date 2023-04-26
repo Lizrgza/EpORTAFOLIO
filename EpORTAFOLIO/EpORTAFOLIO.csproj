@@ -183,6 +183,7 @@
     <Compile Include="Models\Contacto.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Contacto1.cs" />
     <Compile Include="Models\Curriculum.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
@@ -287,6 +288,7 @@
     <Content Include="Views\Proyectoes\Details.cshtml" />
     <Content Include="Views\Proyectoes\Edit.cshtml" />
     <Content Include="Views\Proyectoes\Index.cshtml" />
+    <Content Include="Views\Home\Contacto.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
