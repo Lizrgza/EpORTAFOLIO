@@ -30,7 +30,7 @@ namespace EpORTAFOLIO.Controllers
         public ActionResult Contacto()
         {
 
-            return View(new Contacto());
+            return View(new Contacto1());
         }
 
         [HttpPost]
@@ -69,7 +69,7 @@ namespace EpORTAFOLIO.Controllers
             }
 
 
-            return View("Contacto", contacto);
+            return View("Contacto1", contacto);
         }
 
     }
