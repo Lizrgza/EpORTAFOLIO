@@ -317,6 +317,7 @@
     <Content Include="Views\Proyectoes\Edit.cshtml" />
     <Content Include="Views\Proyectoes\Index.cshtml" />
     <Content Include="Views\Home\Contacto.cshtml" />
+    <Content Include="Views\Shared\_LayoutCliente.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
