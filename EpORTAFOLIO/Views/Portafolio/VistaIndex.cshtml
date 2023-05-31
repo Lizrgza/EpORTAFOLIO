@@ -1,13 +1,21 @@
-﻿@{ 
+﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    }
+}
+
+<head>
 
 
-<section class="container">
-    <div class="row text-center p-3">
-        <div class="col">
-            <h1>Proyectos Recientes</h1>
-        </div>
-    </div><div class="row text-center"><div class="col"><p>Una selección de proyectos recientes</p></div></div><div class="row"><div class="col"><img class="img-fluid" src="~/Content/lizbreria.png" /></div><div class="col"><img class="img-fluid" src="~/Content/fixel.png" /></div><div class="col"><img class="img-fluid" src="~/Content/lilinails.png" /></div></div>
-</section>
+</head>
 
+
+<link href="@Url.Content("~/Content/estiloss.css")" rel="stylesheet" type="text/css" />
+
+<body>
+    <section class="container">
+        <div class="row text-center p-3">
+            <div class="col">
+                <h1>Proyectos Recientes</h1>
+            </div>
+        </div><div class="row text-center"><div class="col"><p>Una selección de proyectos recientes</p></div></div><div class="row"><div class="col"><img class="img-fluid" src="~/Content/lizbreria.png" /></div><div class="col"><img class="img-fluid" src="~/Content/fixel.png" /></div><div class="col"><img class="img-fluid" src="~/Content/lilinails.png" /></div></div>
+    </section>
+</body>

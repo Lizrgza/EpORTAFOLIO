@@ -331,6 +331,7 @@
     <Content Include="Views\Home\Contacto.cshtml" />
     <Content Include="Views\Shared\_LayoutCliente.cshtml" />
     <Content Include="Views\Portafolio\VistaIndex.cshtml" />
+    <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
