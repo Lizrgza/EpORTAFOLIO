@@ -201,6 +201,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PortafolioController.cs" />
+    <Compile Include="Controllers\Proyectoes1Controller.cs" />
     <Compile Include="Controllers\ProyectoesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -332,6 +333,11 @@
     <Content Include="Views\Shared\_LayoutCliente.cshtml" />
     <Content Include="Views\Portafolio\VistaIndex.cshtml" />
     <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
+    <Content Include="Views\Proyectoes1\Create.cshtml" />
+    <Content Include="Views\Proyectoes1\Delete.cshtml" />
+    <Content Include="Views\Proyectoes1\Details.cshtml" />
+    <Content Include="Views\Proyectoes1\Edit.cshtml" />
+    <Content Include="Views\Proyectoes1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
