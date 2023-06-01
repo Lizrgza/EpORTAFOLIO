@@ -12,3 +12,22 @@
     mix-blend-mode: darken;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+
+.fuente-titulo {
+    font-family: "Times New Roman", Times, serif;
+    font-style: initial;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 25px;
+    color: #463261;
+}
+
+.fuente-sub {
+    font-family: "Times New Roman", Times, serif;
+    font-style: initial;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #463261;
+}

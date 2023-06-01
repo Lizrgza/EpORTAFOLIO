@@ -251,11 +251,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\fixel.png" />
+    <Content Include="Content\imag1.png" />
+    <Content Include="Content\imag2.png" />
+    <Content Include="Content\imag3.png" />
     <Content Include="Content\imggg.png" />
     <Content Include="Content\lilinails.png" />
     <Content Include="Content\lizbreria.png" />
     <Content Include="Content\me.png" />
     <Content Include="Content\pcimg.png" />
+    <Content Include="Content\Vector.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

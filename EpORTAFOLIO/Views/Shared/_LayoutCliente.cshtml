@@ -15,6 +15,13 @@
             </button>
             <div class="collapse navbar-collapse col-md-8 offset-md-8" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="@Url.Action("Index", "Proyectoes")">Proyectos</a>
+                        </li>}
+}
                     <li class="nav-item">
                         <a class="nav-link fw-bold" aria-current="page" href="#">Inicio</a>
                     </li>
@@ -27,7 +34,10 @@
                     <li class="nav-item">
                         <a class="nav-link fw-bold" href="#">Contacto</a>
                     </li>
+
+
                 </ul>
+
             </div>
         </div>
     </nav>

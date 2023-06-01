@@ -1,25 +1,47 @@
 ﻿@{Layout = "~/Views/Shared/_Layout.cshtml";}
 
+<head>
+    <link href="@Url.Content("~/Content/estiloss.css")" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
 
-<div class="fuente">
-<div class="container " align="justify" style="padding-top:40px;">
-    <div class="row">
-        <div class="col">
-        </div><div class="col-lg-12"> <img class="img-fluid" src="~/Content/amico.png"/> <img class="img-fluid" src="~/Content/bro.png" /></div>
+<body>
+    <div class="fuente-titulo">
+        <div class=" " align="justify" style="padding-top:40px;">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="~/Content/amico.png" />
+                </div>
+                <div class="col-md-6" style="text-align: right;">
+                    <img class="img-fluid" src="~/Content/bro.png" />
+                </div>
+            </div>
+        </div>
+        <div class="container col-md-6" align="center" style="padding-top:40px;">
+            <div class="row">
+                <div class="col" align="left" style="padding-top:60px;">
+                    <h2 class=" fuente-titulo fw-bold" style="">Hola, Soy Lizbeth.</h2>
+                    <p class="fuente-sub " style="padding-top:40px;">Estudiante de informática que estudia en la facultad de ciencias administrativas.</p>
+                    <div align="center">
+                        <a class="btn btn-secondary boton fuente-sub " style="padding-top: 17px;" align="center" href="@Url.Action("VistaIndex", "Portafolio")">Mi trabajo</a>
+                    </div>
+                </div>
+                
+                <div class="col" align="center">
+                    <img class="img-fluid" src="~/Content/me.png" />
+                </div>
+            </div>
+        </div>
+        <div class=" " align="justify" style="padding-top:40px;">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="~/Content/imggg.png" />
+                </div>
+                <div class="col-md-6" style="text-align: right;">
+                    <img class="img-fluid" src="~/Content/pcimg.png" />
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-<div class="container " align="center" style="padding-top:40px;">
-    <div class="row">
-        <div class="col">
-            <h2 class=" fuente-titulo" style="">Hola, Soy Lizbeth.</h2><p>Estudiante de informática que estudia en la facultad de ciencias administrativas.</p>
-            <a class="btn btn-secondary" href="@Url.Action("Index","Home")">Mi trabajo</a>
-        </div><div class="col"><img class="img-fluid" src="~/Content/me.png" /></div>
-    </div>
-</div>
-<div class="container" align="justify" style="padding-top:40px;">
-    <div class="row">
-        <div class="col">
-        </div><div class="col-lg-12"> <img class="img-fluid" src="~/Content/imggg.png" /> <img class="img-fluid" src="~/Content/pcimg.png" /></div>
-    </div>
-</div>
-</div>
+</body>

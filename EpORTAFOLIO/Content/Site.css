@@ -4,7 +4,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
-    color: #7921DD;
+    color: #774AD7;
     /*border: 1px solid #513EA0;*/
 }
 
@@ -15,4 +15,71 @@
 
 .fuente-titulo {
     font-family: "Times New Roman", Times, serif;
+    font-style: initial;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 20px;
+    color: #463261;
+    text-shadow: 0px 1.5px 1.5px
+}
+
+.fuente-sub {
+    font-family: "Times New Roman", Times, serif;
+    font-style: initial;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+    color: #463261;
+    text-shadow: 0px 1.5px 1.5px
+}
+
+.boton {
+    width: 173px;
+    height: 65px;
+    left: 544px;
+    background-color: #BFAAE0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-color: #BFAAE0;
+    border-radius: 30px;
+}
+
+.cajas-textp {
+    position: absolute;
+    width: 352px;
+    height: 43px;
+    left: 346px;
+    top: 338px;
+    background-color: #BFAAE085;
+}
+
+
+.fuente-tit1 {
+    font-family: "Times New Roman", Times, serif;
+    font-style: initial;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 20px;
+    color: #455A64;
+    text-shadow: 0px 1.5px 1.5px
+}
+
+.fuente-tit2 {
+    font-family: "Times New Roman", Times, serif;
+    font-style: initial;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 20px;
+    color: #B16E48;
+    text-shadow: 0px 1.5px 1.5px
+}
+
+
+.fuente-tit3 {
+    font-family: "Times New Roman", Times, serif;
+    font-style: initial;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 20px;
+    color: #5E4586;
+    text-shadow: 0px 1.5px 1.5px
 }
