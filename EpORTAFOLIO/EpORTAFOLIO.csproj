@@ -203,6 +203,7 @@
     <Compile Include="Controllers\PortafolioController.cs" />
     <Compile Include="Controllers\Proyectoes1Controller.cs" />
     <Compile Include="Controllers\ProyectoesController.cs" />
+    <Compile Include="Controllers\ProyectoLizbreriaController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -251,15 +252,21 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\fixel.png" />
+    <Content Include="Content\iamg2.png" />
     <Content Include="Content\imag1.png" />
     <Content Include="Content\imag2.png" />
     <Content Include="Content\imag3.png" />
     <Content Include="Content\imggg.png" />
+    <Content Include="Content\leerlibro.png" />
+    <Content Include="Content\Librooo.png" />
     <Content Include="Content\lilinails.png" />
     <Content Include="Content\lizbreria.png" />
+    <Content Include="Content\Manicurist.png" />
     <Content Include="Content\me.png" />
     <Content Include="Content\pcimg.png" />
     <Content Include="Content\Vector.png" />
+    <Content Include="Content\VectorFb.png" />
+    <Content Include="Content\VectorInsta.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -342,6 +349,14 @@
     <Content Include="Views\Proyectoes1\Details.cshtml" />
     <Content Include="Views\Proyectoes1\Edit.cshtml" />
     <Content Include="Views\Proyectoes1\Index.cshtml" />
+    <Content Include="Views\ProyectoLizbreria\Create.cshtml" />
+    <Content Include="Views\ProyectoLizbreria\Delete.cshtml" />
+    <Content Include="Views\ProyectoLizbreria\Details.cshtml" />
+    <Content Include="Views\ProyectoLizbreria\Edit.cshtml" />
+    <Content Include="Views\ProyectoLizbreria\Index.cshtml" />
+    <Content Include="Views\Home\ProyLizbreria.cshtml" />
+    <Content Include="Views\Home\ProyFixel.cshtml" />
+    <Content Include="Views\Home\ProyManicura.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

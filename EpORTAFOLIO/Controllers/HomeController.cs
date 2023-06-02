@@ -27,6 +27,21 @@ namespace EpORTAFOLIO.Controllers
             return View();
         }
 
+        public ActionResult ProyLizbreria()
+        {
+            return View();
+        }
+
+        public ActionResult ProyFixel()
+        {
+            return View();
+        }
+
+        public ActionResult ProyManicura()
+        {
+            return View();
+        }
+
         public ActionResult Contacto()
         {
 
